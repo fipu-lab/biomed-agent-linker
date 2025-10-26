@@ -1,0 +1,19 @@
+\begin{table}[htbp]
+\centering
+\caption{Performance Comparison of Entity Linking Approaches}
+\label{tab:performance}
+\begin{tabular}{lrr}
+\hline
+\textbf{Approach} & \textbf{Avg. Query Time (ms)} & \textbf{QPS} \\
+\hline
+QuickUMLS & 4.63 & 215.98 \\
+SciSpacy & 4656.55 & 0.21 \\
+SapBERT & 33.80 & 29.59 \\
+BioBERT & 32.43 & 30.84 \\
+GPT-4o (No Tools, No Abstracts) & 4066.88 & 0.25 \\
+GPT-4o agent (with Tools, No Abstracts) & 8603.97 & 0.12 \\
+GPT-4o (No Tools, with Abstracts) & 4098.12 & 0.24 \\
+GPT-4o agent (with Tools, with Abstracts) & 8890.76 & 0.11 \\
+\hline
+\end{tabular}
+\end{table}
