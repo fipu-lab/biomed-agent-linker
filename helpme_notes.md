@@ -91,10 +91,6 @@ These imports have been commented out with TODO notes. You'll need to:
 
 All configuration remains in `main.py` in the `CONFIG` dictionary, making it easy to adjust settings without diving into implementation details.
 
-### Thread Safety
-
-The file I/O operations in `utils.py` use thread locks to ensure thread safety during concurrent operations.
-
 ### Progressive Saving
 
 The refactored code maintains support for progressive saving of results, which is useful for long-running evaluations that can be resumed if interrupted.

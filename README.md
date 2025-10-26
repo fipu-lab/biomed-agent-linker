@@ -21,3 +21,6 @@ https://www.nlm.nih.gov/research/umls/licensedcontent/umlsknowledgesources.html
 https://openai.com/index/hello-gpt-4o/
 
 ## Important Notes
+
+- Artifacts (e.g., files under `artifacts/`) are not versioned in git due to their size.
+- UMLS source data is not included or versioned due to the NLM license agreement. Please obtain access via the NLM licensing process and place the data locally as required.
